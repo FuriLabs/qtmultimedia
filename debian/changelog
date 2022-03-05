@@ -1,3 +1,10 @@
+qtmultimedia-opensource-src (5.15.3-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Mar 2022 20:44:57 +0300
+
 qtmultimedia-opensource-src (5.15.2-3) unstable; urgency=medium
 
   * Add a patch to increase buffer sizes in tst_QVideoFrame::image() test,
