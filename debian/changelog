@@ -2,6 +2,7 @@ qtmultimedia-opensource-src (5.15.5-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Bump Qt build-dependencies to 5.15.5.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Jul 2022 16:44:35 +0300
 
