@@ -18,7 +18,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  Qt_5.8@Qt_5.8 5.9.0~rc
  Qt_5.9@Qt_5.9 5.9.0~rc
  Qt_5@Qt_5 5.6.0~beta
- Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
+ (symver)Qt_5_PRIVATE_API 0
  _Z19qt_real_to_fractiondPiS_@Qt_5 5.6.0~beta
  _ZN10QRadioData11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN10QRadioData11qt_metacastEPKc@Qt_5 5.6.0~beta
@@ -147,12 +147,10 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN11QVideoProbeD1Ev@Qt_5 5.6.0~beta
  _ZN11QVideoProbeD2Ev@Qt_5 5.6.0~beta
  _ZN12QAudioBuffer4dataEv@Qt_5 5.6.0~beta
- _ZN12QAudioBufferC1EP20QAbstractAudioBuffer@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN12QAudioBufferC1ERK10QByteArrayRK12QAudioFormatx@Qt_5 5.6.0~beta
  _ZN12QAudioBufferC1ERKS_@Qt_5 5.6.0~beta
  _ZN12QAudioBufferC1EiRK12QAudioFormatx@Qt_5 5.6.0~beta
  _ZN12QAudioBufferC1Ev@Qt_5 5.6.0~beta
- _ZN12QAudioBufferC2EP20QAbstractAudioBuffer@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN12QAudioBufferC2ERK10QByteArrayRK12QAudioFormatx@Qt_5 5.6.0~beta
  _ZN12QAudioBufferC2ERKS_@Qt_5 5.6.0~beta
  _ZN12QAudioBufferC2EiRK12QAudioFormatx@Qt_5 5.6.0~beta
@@ -279,23 +277,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN12QMediaPlayerD0Ev@Qt_5 5.6.0~beta
  _ZN12QMediaPlayerD1Ev@Qt_5 5.6.0~beta
  _ZN12QMediaPlayerD2Ev@Qt_5 5.6.0~beta
- _ZN12QSampleCache11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN12QSampleCache11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN12QSampleCache11setCapacityEx@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN12QSampleCache12unloadSampleEP7QSample@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN12QSampleCache13requestSampleERK4QUrl@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN12QSampleCache14loadingReleaseEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN12QSampleCache16isLoadingChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN12QSampleCache16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN12QSampleCache20networkAccessManagerEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN12QSampleCache24notifyUnreferencedSampleEP7QSample@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN12QSampleCache24removeUnreferencedSampleEP7QSample@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN12QSampleCache7refreshEx@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN12QSampleCacheC1EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN12QSampleCacheC2EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN12QSampleCacheD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN12QSampleCacheD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN12QSampleCacheD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN12QSoundEffect11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN12QSoundEffect11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN12QSoundEffect11setCategoryERK7QString@Qt_5 5.6.0~beta
@@ -672,13 +653,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN17QAudioRoleControlD0Ev@Qt_5 5.6.0~beta
  _ZN17QAudioRoleControlD1Ev@Qt_5 5.6.0~beta
  _ZN17QAudioRoleControlD2Ev@Qt_5 5.6.0~beta
- _ZN17QImageVideoBuffer3mapEN20QAbstractVideoBuffer7MapModeEPiS2_@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN17QImageVideoBuffer5unmapEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN17QImageVideoBufferC1ERK6QImage@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN17QImageVideoBufferC2ERK6QImage@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN17QImageVideoBufferD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN17QImageVideoBufferD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN17QImageVideoBufferD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN17QRadioDataControl11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN17QRadioDataControl11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN17QRadioDataControl16radioTextChangedE7QString@Qt_5 5.6.0~beta
@@ -724,26 +698,12 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN18QCameraZoomControlD0Ev@Qt_5 5.6.0~beta
  _ZN18QCameraZoomControlD1Ev@Qt_5 5.6.0~beta
  _ZN18QCameraZoomControlD2Ev@Qt_5 5.6.0~beta
- _ZN18QMediaPluginLoader12loadMetadataEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN18QMediaPluginLoader8instanceERK7QString@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN18QMediaPluginLoader9instancesERK7QString@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN18QMediaPluginLoaderC1EPKcRK7QStringN2Qt15CaseSensitivityE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN18QMediaPluginLoaderC2EPKcRK7QStringN2Qt15CaseSensitivityE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN18QMediaPluginLoaderD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN18QMediaPluginLoaderD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN18QMediaTimeIntervalC1ERKS_@Qt_5 5.6.0~beta
  _ZN18QMediaTimeIntervalC1Ev@Qt_5 5.6.0~beta
  _ZN18QMediaTimeIntervalC1Exx@Qt_5 5.6.0~beta
  _ZN18QMediaTimeIntervalC2ERKS_@Qt_5 5.6.0~beta
  _ZN18QMediaTimeIntervalC2Ev@Qt_5 5.6.0~beta
  _ZN18QMediaTimeIntervalC2Exx@Qt_5 5.6.0~beta
- _ZN18QMemoryVideoBuffer3mapEN20QAbstractVideoBuffer7MapModeEPiS2_@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN18QMemoryVideoBuffer5unmapEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN18QMemoryVideoBufferC1ERK10QByteArrayi@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN18QMemoryVideoBufferC2ERK10QByteArrayi@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN18QMemoryVideoBufferD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN18QMemoryVideoBufferD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN18QMemoryVideoBufferD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN18QRadioTunerControl11bandChangedEN11QRadioTuner4BandE@Qt_5 5.6.0~beta
  _ZN18QRadioTunerControl11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN18QRadioTunerControl11qt_metacastEPKc@Qt_5 5.6.0~beta
@@ -844,27 +804,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN19QMediaPlayerControlD0Ev@Qt_5 5.6.0~beta
  _ZN19QMediaPlayerControlD1Ev@Qt_5 5.6.0~beta
  _ZN19QMediaPlayerControlD2Ev@Qt_5 5.6.0~beta
- _ZN19QPlaylistFileParser10handleDataEv@Qt_5_PRIVATE_API 5.9.0~rc
- _ZN19QPlaylistFileParser11handleErrorEv@Qt_5_PRIVATE_API 5.9.0~rc
- _ZN19QPlaylistFileParser11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN19QPlaylistFileParser11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN19QPlaylistFileParser14findByMimeTypeERK7QString@Qt_5_PRIVATE_API 5.9.0~rc
- _ZN19QPlaylistFileParser16findByDataHeaderEPKcj@Qt_5_PRIVATE_API 5.9.0~rc
- _ZN19QPlaylistFileParser16findBySuffixTypeERK7QString@Qt_5_PRIVATE_API 5.9.0~rc
- _ZN19QPlaylistFileParser16findPlaylistTypeERK7QStringS2_PKcj@Qt_5_PRIVATE_API 5.9.0~rc
- _ZN19QPlaylistFileParser16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN19QPlaylistFileParser5abortEv@Qt_5_PRIVATE_API 5.9.0~rc
- _ZN19QPlaylistFileParser5errorENS_11ParserErrorERK7QString@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN19QPlaylistFileParser5startEP9QIODeviceRK7QString@Qt_5_PRIVATE_API 5.9.0~rc
- _ZN19QPlaylistFileParser5startERK13QMediaContentP9QIODeviceRK7QString@Qt_5_PRIVATE_API 5.14.1
- _ZN19QPlaylistFileParser5startERK15QNetworkRequestRK7QString@Qt_5_PRIVATE_API 5.9.0~rc
- _ZN19QPlaylistFileParser7newItemERK8QVariant@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN19QPlaylistFileParser8finishedEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN19QPlaylistFileParserC1EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN19QPlaylistFileParserC2EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN19QPlaylistFileParserD0Ev@Qt_5_PRIVATE_API 5.9.0~rc
- _ZN19QPlaylistFileParserD1Ev@Qt_5_PRIVATE_API 5.9.0~rc
- _ZN19QPlaylistFileParserD2Ev@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN19QVideoSurfaceFormat11setMirroredEb@Qt_5 5.11.1
  _ZN19QVideoSurfaceFormat11setPropertyEPKcRK8QVariant@Qt_5 5.6.0~beta
  _ZN19QVideoSurfaceFormat11setViewportERK5QRect@Qt_5 5.6.0~beta
@@ -949,14 +888,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN20QImageEncoderControlD0Ev@Qt_5 5.6.0~beta
  _ZN20QImageEncoderControlD1Ev@Qt_5 5.6.0~beta
  _ZN20QImageEncoderControlD2Ev@Qt_5 5.6.0~beta
- _ZN20QMediaPlaylistReaderD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN20QMediaPlaylistReaderD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN20QMediaPlaylistReaderD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN20QMediaPlaylistWriterD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN20QMediaPlaylistWriterD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN20QMediaPlaylistWriterD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN20QMediaResourcePolicy17createResourceSetERK7QString@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN20QMediaResourcePolicy18destroyResourceSetEP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN20QMediaStreamsControl11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN20QMediaStreamsControl11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN20QMediaStreamsControl14streamsChangedEv@Qt_5 5.6.0~beta
@@ -1014,18 +945,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN21QImageEncoderSettingsD1Ev@Qt_5 5.6.0~beta
  _ZN21QImageEncoderSettingsD2Ev@Qt_5 5.6.0~beta
  _ZN21QImageEncoderSettingsaSERKS_@Qt_5 5.6.0~beta
- _ZN21QMediaPlaylistControl11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN21QMediaPlaylistControl11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN21QMediaPlaylistControl16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN21QMediaPlaylistControl19currentIndexChangedEi@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN21QMediaPlaylistControl19currentMediaChangedERK13QMediaContent@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN21QMediaPlaylistControl19playbackModeChangedEN14QMediaPlaylist12PlaybackModeE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN21QMediaPlaylistControl23playlistProviderChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN21QMediaPlaylistControlC1EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN21QMediaPlaylistControlC2EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN21QMediaPlaylistControlD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN21QMediaPlaylistControlD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN21QMediaPlaylistControlD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN21QMediaRecorderControl11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN21QMediaRecorderControl11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN21QMediaRecorderControl12mutedChangedEb@Qt_5 5.6.0~beta
@@ -1041,15 +960,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN21QMediaRecorderControlD0Ev@Qt_5 5.6.0~beta
  _ZN21QMediaRecorderControlD1Ev@Qt_5 5.6.0~beta
  _ZN21QMediaRecorderControlD2Ev@Qt_5 5.6.0~beta
- _ZN21QMediaServiceProvider11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN21QMediaServiceProvider11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN21QMediaServiceProvider16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN21QMediaServiceProvider17deviceDescriptionERK10QByteArrayS2_@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN21QMediaServiceProvider22defaultServiceProviderEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN21QMediaServiceProvider25setDefaultServiceProviderEPS_@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN21QMediaStorageLocation18addStorageLocationENS_9MediaTypeERK7QString@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN21QMediaStorageLocationC1Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN21QMediaStorageLocationC2Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN21QVideoEncoderSettings10setBitRateEi@Qt_5 5.6.0~beta
  _ZN21QVideoEncoderSettings10setQualityEN11QMultimedia15EncodingQualityE@Qt_5 5.6.0~beta
  _ZN21QVideoEncoderSettings12setFrameRateEd@Qt_5 5.6.0~beta
@@ -1117,44 +1027,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN22QMediaContainerControlD0Ev@Qt_5 5.6.0~beta
  _ZN22QMediaContainerControlD1Ev@Qt_5 5.6.0~beta
  _ZN22QMediaContainerControlD2Ev@Qt_5 5.6.0~beta
- _ZN22QMediaPlaylistIOPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistIOPlugin11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistIOPlugin16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistIOPluginC1EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistIOPluginC2EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistIOPluginD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistIOPluginD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistIOPluginD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider10loadFailedEN14QMediaPlaylist5ErrorERK7QString@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider11insertMediaEiRK13QMediaContent@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider11insertMediaEiRK5QListI13QMediaContentE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider11removeMediaEi@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider11removeMediaEii@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider12mediaChangedEii@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider12mediaRemovedEii@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider13mediaInsertedEii@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider21mediaAboutToBeRemovedEii@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider22mediaAboutToBeInsertedEii@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider4loadEP9QIODevicePKc@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider4loadERK15QNetworkRequestPKc@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider4saveEP9QIODevicePKc@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider4saveERK4QUrlPKc@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider5clearEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider6loadedEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider7shuffleEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider8addMediaERK13QMediaContent@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider8addMediaERK5QListI13QMediaContentE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProvider9moveMediaEii@Qt_5_PRIVATE_API 5.7.0
- _ZN22QMediaPlaylistProviderC1EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProviderC1ER29QMediaPlaylistProviderPrivateP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProviderC2EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProviderC2ER29QMediaPlaylistProviderPrivateP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProviderD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProviderD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN22QMediaPlaylistProviderD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN22QMetaDataReaderControl11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN22QMetaDataReaderControl11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN22QMetaDataReaderControl15metaDataChangedERK7QStringRK8QVariant@Qt_5 5.6.0~beta
@@ -1200,23 +1072,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN23QMediaBindableInterfaceD0Ev@Qt_5 5.6.0~beta
  _ZN23QMediaBindableInterfaceD1Ev@Qt_5 5.6.0~beta
  _ZN23QMediaBindableInterfaceD2Ev@Qt_5 5.6.0~beta
- _ZN23QMediaPlaylistNavigator11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN23QMediaPlaylistNavigator11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN23QMediaPlaylistNavigator11setPlaylistEP22QMediaPlaylistProvider@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN23QMediaPlaylistNavigator15setPlaybackModeEN14QMediaPlaylist12PlaybackModeE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN23QMediaPlaylistNavigator16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN23QMediaPlaylistNavigator19currentIndexChangedEi@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN23QMediaPlaylistNavigator19playbackModeChangedEN14QMediaPlaylist12PlaybackModeE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN23QMediaPlaylistNavigator23surroundingItemsChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN23QMediaPlaylistNavigator4jumpEi@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN23QMediaPlaylistNavigator4nextEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN23QMediaPlaylistNavigator8previousEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN23QMediaPlaylistNavigator9activatedERK13QMediaContent@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN23QMediaPlaylistNavigatorC1EP22QMediaPlaylistProviderP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN23QMediaPlaylistNavigatorC2EP22QMediaPlaylistProviderP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN23QMediaPlaylistNavigatorD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN23QMediaPlaylistNavigatorD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN23QMediaPlaylistNavigatorD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN23QMediaVideoProbeControl11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN23QMediaVideoProbeControl11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN23QMediaVideoProbeControl16staticMetaObjectE@Qt_5 5.6.0~beta
@@ -1308,14 +1163,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN26QMediaNetworkAccessControlD0Ev@Qt_5 5.6.0~beta
  _ZN26QMediaNetworkAccessControlD1Ev@Qt_5 5.6.0~beta
  _ZN26QMediaNetworkAccessControlD2Ev@Qt_5 5.6.0~beta
- _ZN26QMediaResourcePolicyPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN26QMediaResourcePolicyPlugin11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN26QMediaResourcePolicyPlugin16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN26QMediaResourcePolicyPluginC1EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN26QMediaResourcePolicyPluginC2EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN26QMediaResourcePolicyPluginD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN26QMediaResourcePolicyPluginD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN26QMediaResourcePolicyPluginD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN27QAudioOutputSelectorControl11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN27QAudioOutputSelectorControl11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN27QAudioOutputSelectorControl16staticMetaObjectE@Qt_5 5.6.0~beta
@@ -1326,18 +1173,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN27QAudioOutputSelectorControlD0Ev@Qt_5 5.6.0~beta
  _ZN27QAudioOutputSelectorControlD1Ev@Qt_5 5.6.0~beta
  _ZN27QAudioOutputSelectorControlD2Ev@Qt_5 5.6.0~beta
- _ZN27QAudioSystemPluginExtensionD0Ev@Qt_5_PRIVATE_API 5.9.0~rc
- _ZN27QAudioSystemPluginExtensionD1Ev@Qt_5_PRIVATE_API 5.9.0~rc
- _ZN27QAudioSystemPluginExtensionD2Ev@Qt_5_PRIVATE_API 5.9.0~rc
- _ZN27QMediaPlaylistSourceControl11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN27QMediaPlaylistSourceControl11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN27QMediaPlaylistSourceControl15playlistChangedEP14QMediaPlaylist@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN27QMediaPlaylistSourceControl16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN27QMediaPlaylistSourceControlC1EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN27QMediaPlaylistSourceControlC2EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN27QMediaPlaylistSourceControlD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN27QMediaPlaylistSourceControlD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN27QMediaPlaylistSourceControlD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN27QMediaServiceProviderPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN27QMediaServiceProviderPlugin11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN27QMediaServiceProviderPlugin16staticMetaObjectE@Qt_5 5.6.0~beta
@@ -1390,31 +1225,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN29QCameraImageProcessingControlD0Ev@Qt_5 5.6.0~beta
  _ZN29QCameraImageProcessingControlD1Ev@Qt_5 5.6.0~beta
  _ZN29QCameraImageProcessingControlD2Ev@Qt_5 5.6.0~beta
- _ZN29QMediaNetworkPlaylistProvider11insertMediaEiRK13QMediaContent@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN29QMediaNetworkPlaylistProvider11insertMediaEiRK5QListI13QMediaContentE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN29QMediaNetworkPlaylistProvider11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN29QMediaNetworkPlaylistProvider11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN29QMediaNetworkPlaylistProvider11removeMediaEi@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN29QMediaNetworkPlaylistProvider11removeMediaEii@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN29QMediaNetworkPlaylistProvider16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN29QMediaNetworkPlaylistProvider4loadERK15QNetworkRequestPKc@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN29QMediaNetworkPlaylistProvider5clearEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN29QMediaNetworkPlaylistProvider7shuffleEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN29QMediaNetworkPlaylistProvider8addMediaERK13QMediaContent@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN29QMediaNetworkPlaylistProvider8addMediaERK5QListI13QMediaContentE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN29QMediaNetworkPlaylistProvider9moveMediaEii@Qt_5_PRIVATE_API 5.7.0
- _ZN29QMediaNetworkPlaylistProviderC1EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN29QMediaNetworkPlaylistProviderC2EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN29QMediaNetworkPlaylistProviderD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN29QMediaNetworkPlaylistProviderD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN29QMediaNetworkPlaylistProviderD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN30QVideoOutputOrientationHandler11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN30QVideoOutputOrientationHandler11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN30QVideoOutputOrientationHandler16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN30QVideoOutputOrientationHandler18orientationChangedEi@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN30QVideoOutputOrientationHandler24screenOrientationChangedEN2Qt17ScreenOrientationE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN30QVideoOutputOrientationHandlerC1EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN30QVideoOutputOrientationHandlerC2EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN32QCameraCaptureDestinationControl11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN32QCameraCaptureDestinationControl11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN32QCameraCaptureDestinationControl16staticMetaObjectE@Qt_5 5.6.0~beta
@@ -1432,17 +1242,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN32QCameraViewfinderSettingsControlD0Ev@Qt_5 5.6.0~beta
  _ZN32QCameraViewfinderSettingsControlD1Ev@Qt_5 5.6.0~beta
  _ZN32QCameraViewfinderSettingsControlD2Ev@Qt_5 5.6.0~beta
- _ZN32QMediaPlayerResourceSetInterface11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN32QMediaPlayerResourceSetInterface11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN32QMediaPlayerResourceSetInterface13resourcesLostEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN32QMediaPlayerResourceSetInterface15resourcesDeniedEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN32QMediaPlayerResourceSetInterface16resourcesGrantedEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN32QMediaPlayerResourceSetInterface16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN32QMediaPlayerResourceSetInterface17resourcesReleasedEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN32QMediaPlayerResourceSetInterface19availabilityChangedEb@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN32QMediaPlayerResourceSetInterface3iidEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN32QMediaPlayerResourceSetInterfaceC1EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN32QMediaPlayerResourceSetInterfaceC2EP7QObject@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN33QCameraCaptureBufferFormatControl11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0~beta
  _ZN33QCameraCaptureBufferFormatControl11qt_metacastEPKc@Qt_5 5.6.0~beta
  _ZN33QCameraCaptureBufferFormatControl16staticMetaObjectE@Qt_5 5.6.0~beta
@@ -1515,25 +1314,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZN7QCameraD0Ev@Qt_5 5.6.0~beta
  _ZN7QCameraD1Ev@Qt_5 5.6.0~beta
  _ZN7QCameraD2Ev@Qt_5 5.6.0~beta
- _ZN7QSample10readSampleEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN7QSample11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN7QSample11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN7QSample12decoderErrorEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN7QSample12decoderReadyEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN7QSample15loadIfNecessaryEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN7QSample16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN7QSample4loadEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN7QSample5errorEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN7QSample5readyEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN7QSample6addRefEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN7QSample7cleanupEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN7QSample7onReadyEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN7QSample7releaseEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN7QSampleC1ERK4QUrlP12QSampleCache@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN7QSampleC2ERK4QUrlP12QSampleCache@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN7QSampleD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN7QSampleD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN7QSampleD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK10QRadioData10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK10QRadioData11errorStringEv@Qt_5 5.6.0~beta
  _ZNK10QRadioData11mediaObjectEv@Qt_5 5.6.0~beta
@@ -1691,9 +1471,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK12QMediaPlayer8playlistEv@Qt_5 5.6.0~beta
  _ZNK12QMediaPlayer8positionEv@Qt_5 5.6.0~beta
  _ZNK12QMediaPlayer9audioRoleEv@Qt_5 5.6.0~beta
- _ZNK12QSampleCache10metaObjectEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK12QSampleCache8isCachedERK4QUrl@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK12QSampleCache9isLoadingEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK12QSoundEffect10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK12QSoundEffect14loopsRemainingEv@Qt_5 5.6.0~beta
  _ZNK12QSoundEffect6sourceEv@Qt_5 5.6.0~beta
@@ -1837,19 +1614,16 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK16QCameraFocusZoneeqERKS_@Qt_5 5.6.0~beta
  _ZNK16QCameraFocusZoneneERKS_@Qt_5 5.6.0~beta
  _ZNK17QAudioRoleControl10metaObjectEv@Qt_5 5.6.0~beta
- _ZNK17QImageVideoBuffer7mapModeEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK17QRadioDataControl10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK18QAudioSystemPlugin10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK18QCameraInfoControl10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK18QCameraZoomControl10metaObjectEv@Qt_5 5.6.0~beta
- _ZNK18QMediaPluginLoader4keysEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK18QMediaTimeInterval10normalizedEv@Qt_5 5.6.0~beta
  _ZNK18QMediaTimeInterval10translatedEx@Qt_5 5.6.0~beta
  _ZNK18QMediaTimeInterval3endEv@Qt_5 5.6.0~beta
  _ZNK18QMediaTimeInterval5startEv@Qt_5 5.6.0~beta
  _ZNK18QMediaTimeInterval8containsEx@Qt_5 5.6.0~beta
  _ZNK18QMediaTimeInterval8isNormalEv@Qt_5 5.6.0~beta
- _ZNK18QMemoryVideoBuffer7mapModeEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK18QRadioTunerControl10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK19QAbstractAudioInput10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK19QCameraFlashControl10metaObjectEv@Qt_5 5.6.0~beta
@@ -1871,7 +1645,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK19QCameraImageCapture5errorEv@Qt_5 5.6.0~beta
  _ZNK19QCameraLocksControl10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK19QMediaPlayerControl10metaObjectEv@Qt_5 5.6.0~beta
- _ZNK19QPlaylistFileParser10metaObjectEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK19QVideoSurfaceFormat10frameWidthEv@Qt_5 5.6.0~beta
  _ZNK19QVideoSurfaceFormat10handleTypeEv@Qt_5 5.6.0~beta
  _ZNK19QVideoSurfaceFormat10isMirroredEv@Qt_5 5.11.1
@@ -1924,19 +1697,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK21QImageEncoderSettings7qualityEv@Qt_5 5.6.0~beta
  _ZNK21QImageEncoderSettingseqERKS_@Qt_5 5.6.0~beta
  _ZNK21QImageEncoderSettingsneERKS_@Qt_5 5.6.0~beta
- _ZNK21QMediaPlaylistControl10metaObjectEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK21QMediaRecorderControl10metaObjectEv@Qt_5 5.6.0~beta
- _ZNK21QMediaServiceProvider10hasSupportERK10QByteArrayRK7QStringRK11QStringListi@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK21QMediaServiceProvider10metaObjectEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK21QMediaServiceProvider13defaultDeviceERK10QByteArray@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK21QMediaServiceProvider14cameraPositionERK10QByteArray@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK21QMediaServiceProvider17cameraOrientationERK10QByteArray@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK21QMediaServiceProvider17supportedFeaturesEPK13QMediaService@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK21QMediaServiceProvider18supportedMimeTypesERK10QByteArrayi@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK21QMediaServiceProvider7devicesERK10QByteArray@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK21QMediaStorageLocation15defaultLocationENS_9MediaTypeE@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK21QMediaStorageLocation16generateFileNameERK7QStringNS_9MediaTypeES2_S2_@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK21QMediaStorageLocation16generateFileNameERK7QStringRK4QDirS2_@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK21QVideoEncoderSettings10resolutionEv@Qt_5 5.6.0~beta
  _ZNK21QVideoEncoderSettings12encodingModeEv@Qt_5 5.6.0~beta
  _ZNK21QVideoEncoderSettings14encodingOptionERK7QString@Qt_5 5.6.0~beta
@@ -1964,23 +1725,10 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK22QCameraImageProcessing27isWhiteBalanceModeSupportedENS_16WhiteBalanceModeE@Qt_5 5.6.0~beta
  _ZNK22QCameraImageProcessing8contrastEv@Qt_5 5.6.0~beta
  _ZNK22QMediaContainerControl10metaObjectEv@Qt_5 5.6.0~beta
- _ZNK22QMediaPlaylistIOPlugin10metaObjectEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK22QMediaPlaylistProvider10isReadOnlyEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK22QMediaPlaylistProvider10metaObjectEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK22QMetaDataReaderControl10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK22QMetaDataWriterControl10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK23QCustomAudioRoleControl10metaObjectEv@Qt_5 5.11.1
  _ZNK23QMediaAudioProbeControl10metaObjectEv@Qt_5 5.6.0~beta
- _ZNK23QMediaPlaylistNavigator10metaObjectEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK23QMediaPlaylistNavigator11currentItemEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK23QMediaPlaylistNavigator12currentIndexEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK23QMediaPlaylistNavigator12playbackModeEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK23QMediaPlaylistNavigator12previousItemEi@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK23QMediaPlaylistNavigator13previousIndexEi@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK23QMediaPlaylistNavigator6itemAtEi@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK23QMediaPlaylistNavigator8nextItemEi@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK23QMediaPlaylistNavigator8playlistEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK23QMediaPlaylistNavigator9nextIndexEi@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK23QMediaVideoProbeControl10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK24QAbstractAudioDeviceInfo10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK25QCameraViewfinderSettings10resolutionEv@Qt_5 5.6.0~beta
@@ -2002,24 +1750,15 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK26QAudioInputSelectorControl10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK26QCameraImageCaptureControl10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK26QMediaNetworkAccessControl10metaObjectEv@Qt_5 5.6.0~beta
- _ZNK26QMediaResourcePolicyPlugin10metaObjectEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK27QAudioOutputSelectorControl10metaObjectEv@Qt_5 5.6.0~beta
- _ZNK27QMediaPlaylistSourceControl10metaObjectEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK27QMediaServiceProviderPlugin10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK27QVideoDeviceSelectorControl10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK28QAudioEncoderSettingsControl10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK28QMediaGaplessPlaybackControl10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK28QVideoEncoderSettingsControl10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK29QCameraImageProcessingControl10metaObjectEv@Qt_5 5.6.0~beta
- _ZNK29QMediaNetworkPlaylistProvider10isReadOnlyEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK29QMediaNetworkPlaylistProvider10mediaCountEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK29QMediaNetworkPlaylistProvider10metaObjectEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK29QMediaNetworkPlaylistProvider5mediaEi@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK30QVideoOutputOrientationHandler10metaObjectEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK30QVideoOutputOrientationHandler18currentOrientationEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK32QCameraCaptureDestinationControl10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK32QCameraViewfinderSettingsControl10metaObjectEv@Qt_5 5.6.0~beta
- _ZNK32QMediaPlayerResourceSetInterface10metaObjectEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK33QCameraCaptureBufferFormatControl10metaObjectEv@Qt_5 5.6.0~beta
  _ZNK33QCameraViewfinderSettingsControl210metaObjectEv@Qt_5 5.6.0~beta
  _ZNK6QSound10isFinishedEv@Qt_5 5.6.0~beta
@@ -2047,8 +1786,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZNK7QCamera5stateEv@Qt_5 5.6.0~beta
  _ZNK7QCamera6statusEv@Qt_5 5.6.0~beta
  _ZNK7QCamera8exposureEv@Qt_5 5.6.0~beta
- _ZNK7QSample10metaObjectEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK7QSample5stateEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI10QRadioData@Qt_5 5.6.0~beta
  _ZTI11QAudioInput@Qt_5 5.6.0~beta
  _ZTI11QAudioProbe@Qt_5 5.6.0~beta
@@ -2058,7 +1795,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTI12QCameraFocus@Qt_5 5.6.0~beta
  _ZTI12QMediaObject@Qt_5 5.6.0~beta
  _ZTI12QMediaPlayer@Qt_5 5.6.0~beta
- _ZTI12QSampleCache@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI12QSoundEffect@Qt_5 5.6.0~beta
  _ZTI13QAudioDecoder@Qt_5 5.6.0~beta
  _ZTI13QMediaControl@Qt_5 5.6.0~beta
@@ -2069,12 +1805,10 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTI14QMediaRecorder@Qt_5 5.6.0~beta
  _ZTI15QCameraExposure@Qt_5 5.6.0~beta
  _ZTI17QAudioRoleControl@Qt_5 5.6.0~beta
- _ZTI17QImageVideoBuffer@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI17QRadioDataControl@Qt_5 5.6.0~beta
  _ZTI18QAudioSystemPlugin@Qt_5 5.6.0~beta
  _ZTI18QCameraInfoControl@Qt_5 5.6.0~beta
  _ZTI18QCameraZoomControl@Qt_5 5.6.0~beta
- _ZTI18QMemoryVideoBuffer@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI18QRadioTunerControl@Qt_5 5.6.0~beta
  _ZTI19QAbstractAudioInput@Qt_5 5.6.0~beta
  _ZTI19QCameraFlashControl@Qt_5 5.6.0~beta
@@ -2082,47 +1816,34 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTI19QCameraImageCapture@Qt_5 5.6.0~beta
  _ZTI19QCameraLocksControl@Qt_5 5.6.0~beta
  _ZTI19QMediaPlayerControl@Qt_5 5.6.0~beta
- _ZTI19QPlaylistFileParser@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI19QVideoWindowControl@Qt_5 5.6.0~beta
- _ZTI20QAbstractAudioBuffer@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI20QAbstractAudioOutput@Qt_5 5.6.0~beta
  _ZTI20QAbstractVideoBuffer@Qt_5 5.6.0~beta
  _ZTI20QAbstractVideoFilter@Qt_5 5.6.0~beta
  _ZTI20QAudioDecoderControl@Qt_5 5.6.0~beta
  _ZTI20QImageEncoderControl@Qt_5 5.6.0~beta
- _ZTI20QMediaPlaylistReader@Qt_5_PRIVATE_API 5.6.0~beta
- _ZTI20QMediaPlaylistWriter@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI20QMediaStreamsControl@Qt_5 5.6.0~beta
  _ZTI20QVideoFilterRunnable@Qt_5 5.6.0~beta
  _ZTI21QAbstractVideoSurface@Qt_5 5.6.0~beta
- _ZTI21QMediaPlaylistControl@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI21QMediaRecorderControl@Qt_5 5.6.0~beta
- _ZTI21QMediaServiceProvider@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI21QVideoRendererControl@Qt_5 5.6.0~beta
  _ZTI22QCameraExposureControl@Qt_5 5.6.0~beta
  _ZTI22QCameraFeedbackControl@Qt_5 5.6.0~beta
  _ZTI22QCameraImageProcessing@Qt_5 5.6.0~beta
  _ZTI22QMediaContainerControl@Qt_5 5.6.0~beta
- _ZTI22QMediaPlaylistIOPlugin@Qt_5_PRIVATE_API 5.6.0~beta
- _ZTI22QMediaPlaylistProvider@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI22QMetaDataReaderControl@Qt_5 5.6.0~beta
  _ZTI22QMetaDataWriterControl@Qt_5 5.6.0~beta
  _ZTI23QCustomAudioRoleControl@Qt_5 5.11.1
  _ZTI23QMediaAudioProbeControl@Qt_5 5.6.0~beta
  _ZTI23QMediaBindableInterface@Qt_5 5.6.0~beta
- _ZTI23QMediaPlaylistNavigator@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI23QMediaVideoProbeControl@Qt_5 5.6.0~beta
  _ZTI24QAbstractAudioDeviceInfo@Qt_5 5.6.0~beta
  _ZTI25QMediaAvailabilityControl@Qt_5 5.6.0~beta
- _ZTI25QMediaPlaylistIOInterface@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI26QAbstractPlanarVideoBuffer@Qt_5 5.6.0~beta
  _ZTI26QAudioInputSelectorControl@Qt_5 5.6.0~beta
  _ZTI26QCameraImageCaptureControl@Qt_5 5.6.0~beta
  _ZTI26QMediaNetworkAccessControl@Qt_5 5.6.0~beta
- _ZTI26QMediaResourcePolicyPlugin@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI27QAudioOutputSelectorControl@Qt_5 5.6.0~beta
- _ZTI27QAudioSystemPluginExtension@Qt_5_PRIVATE_API 5.9.0~rc
- _ZTI27QMediaPlaylistSourceControl@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI27QMediaServiceProviderPlugin@Qt_5 5.6.0~beta
  _ZTI27QVideoDeviceSelectorControl@Qt_5 5.6.0~beta
  _ZTI28QAudioEncoderSettingsControl@Qt_5 5.6.0~beta
@@ -2130,18 +1851,13 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTI28QMediaGaplessPlaybackControl@Qt_5 5.6.0~beta
  _ZTI28QVideoEncoderSettingsControl@Qt_5 5.6.0~beta
  _ZTI29QCameraImageProcessingControl@Qt_5 5.6.0~beta
- _ZTI29QMediaNetworkPlaylistProvider@Qt_5_PRIVATE_API 5.6.0~beta
- _ZTI30QVideoOutputOrientationHandler@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI32QCameraCaptureDestinationControl@Qt_5 5.6.0~beta
  _ZTI32QCameraViewfinderSettingsControl@Qt_5 5.6.0~beta
- _ZTI32QMediaPlayerResourceSetInterface@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI33QCameraCaptureBufferFormatControl@Qt_5 5.6.0~beta
  _ZTI33QCameraViewfinderSettingsControl2@Qt_5 5.6.0~beta
- _ZTI33QMediaResourceSetFactoryInterface@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI37QMediaServiceProviderFactoryInterface@Qt_5 5.6.0~beta
  _ZTI6QSound@Qt_5 5.6.0~beta
  _ZTI7QCamera@Qt_5 5.6.0~beta
- _ZTI7QSample@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS10QRadioData@Qt_5 5.6.0~beta
  _ZTS11QAudioInput@Qt_5 5.6.0~beta
  _ZTS11QAudioProbe@Qt_5 5.6.0~beta
@@ -2151,7 +1867,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTS12QCameraFocus@Qt_5 5.6.0~beta
  _ZTS12QMediaObject@Qt_5 5.6.0~beta
  _ZTS12QMediaPlayer@Qt_5 5.6.0~beta
- _ZTS12QSampleCache@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS12QSoundEffect@Qt_5 5.6.0~beta
  _ZTS13QAudioDecoder@Qt_5 5.6.0~beta
  _ZTS13QMediaControl@Qt_5 5.6.0~beta
@@ -2162,12 +1877,10 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTS14QMediaRecorder@Qt_5 5.6.0~beta
  _ZTS15QCameraExposure@Qt_5 5.6.0~beta
  _ZTS17QAudioRoleControl@Qt_5 5.6.0~beta
- _ZTS17QImageVideoBuffer@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS17QRadioDataControl@Qt_5 5.6.0~beta
  _ZTS18QAudioSystemPlugin@Qt_5 5.6.0~beta
  _ZTS18QCameraInfoControl@Qt_5 5.6.0~beta
  _ZTS18QCameraZoomControl@Qt_5 5.6.0~beta
- _ZTS18QMemoryVideoBuffer@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS18QRadioTunerControl@Qt_5 5.6.0~beta
  _ZTS19QAbstractAudioInput@Qt_5 5.6.0~beta
  _ZTS19QCameraFlashControl@Qt_5 5.6.0~beta
@@ -2175,47 +1888,34 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTS19QCameraImageCapture@Qt_5 5.6.0~beta
  _ZTS19QCameraLocksControl@Qt_5 5.6.0~beta
  _ZTS19QMediaPlayerControl@Qt_5 5.6.0~beta
- _ZTS19QPlaylistFileParser@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS19QVideoWindowControl@Qt_5 5.6.0~beta
- _ZTS20QAbstractAudioBuffer@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS20QAbstractAudioOutput@Qt_5 5.6.0~beta
  _ZTS20QAbstractVideoBuffer@Qt_5 5.6.0~beta
  _ZTS20QAbstractVideoFilter@Qt_5 5.6.0~beta
  _ZTS20QAudioDecoderControl@Qt_5 5.6.0~beta
  _ZTS20QImageEncoderControl@Qt_5 5.6.0~beta
- _ZTS20QMediaPlaylistReader@Qt_5_PRIVATE_API 5.6.0~beta
- _ZTS20QMediaPlaylistWriter@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS20QMediaStreamsControl@Qt_5 5.6.0~beta
  _ZTS20QVideoFilterRunnable@Qt_5 5.6.0~beta
  _ZTS21QAbstractVideoSurface@Qt_5 5.6.0~beta
- _ZTS21QMediaPlaylistControl@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS21QMediaRecorderControl@Qt_5 5.6.0~beta
- _ZTS21QMediaServiceProvider@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS21QVideoRendererControl@Qt_5 5.6.0~beta
  _ZTS22QCameraExposureControl@Qt_5 5.6.0~beta
  _ZTS22QCameraFeedbackControl@Qt_5 5.6.0~beta
  _ZTS22QCameraImageProcessing@Qt_5 5.6.0~beta
  _ZTS22QMediaContainerControl@Qt_5 5.6.0~beta
- _ZTS22QMediaPlaylistIOPlugin@Qt_5_PRIVATE_API 5.6.0~beta
- _ZTS22QMediaPlaylistProvider@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS22QMetaDataReaderControl@Qt_5 5.6.0~beta
  _ZTS22QMetaDataWriterControl@Qt_5 5.6.0~beta
  _ZTS23QCustomAudioRoleControl@Qt_5 5.11.1
  _ZTS23QMediaAudioProbeControl@Qt_5 5.6.0~beta
  _ZTS23QMediaBindableInterface@Qt_5 5.6.0~beta
- _ZTS23QMediaPlaylistNavigator@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS23QMediaVideoProbeControl@Qt_5 5.6.0~beta
  _ZTS24QAbstractAudioDeviceInfo@Qt_5 5.6.0~beta
  _ZTS25QMediaAvailabilityControl@Qt_5 5.6.0~beta
- _ZTS25QMediaPlaylistIOInterface@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS26QAbstractPlanarVideoBuffer@Qt_5 5.6.0~beta
  _ZTS26QAudioInputSelectorControl@Qt_5 5.6.0~beta
  _ZTS26QCameraImageCaptureControl@Qt_5 5.6.0~beta
  _ZTS26QMediaNetworkAccessControl@Qt_5 5.6.0~beta
- _ZTS26QMediaResourcePolicyPlugin@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS27QAudioOutputSelectorControl@Qt_5 5.6.0~beta
- _ZTS27QAudioSystemPluginExtension@Qt_5_PRIVATE_API 5.9.0~rc
- _ZTS27QMediaPlaylistSourceControl@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS27QMediaServiceProviderPlugin@Qt_5 5.6.0~beta
  _ZTS27QVideoDeviceSelectorControl@Qt_5 5.6.0~beta
  _ZTS28QAudioEncoderSettingsControl@Qt_5 5.6.0~beta
@@ -2223,18 +1923,13 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTS28QMediaGaplessPlaybackControl@Qt_5 5.6.0~beta
  _ZTS28QVideoEncoderSettingsControl@Qt_5 5.6.0~beta
  _ZTS29QCameraImageProcessingControl@Qt_5 5.6.0~beta
- _ZTS29QMediaNetworkPlaylistProvider@Qt_5_PRIVATE_API 5.6.0~beta
- _ZTS30QVideoOutputOrientationHandler@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS32QCameraCaptureDestinationControl@Qt_5 5.6.0~beta
  _ZTS32QCameraViewfinderSettingsControl@Qt_5 5.6.0~beta
- _ZTS32QMediaPlayerResourceSetInterface@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS33QCameraCaptureBufferFormatControl@Qt_5 5.6.0~beta
  _ZTS33QCameraViewfinderSettingsControl2@Qt_5 5.6.0~beta
- _ZTS33QMediaResourceSetFactoryInterface@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS37QMediaServiceProviderFactoryInterface@Qt_5 5.6.0~beta
  _ZTS6QSound@Qt_5 5.6.0~beta
  _ZTS7QCamera@Qt_5 5.6.0~beta
- _ZTS7QSample@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV10QRadioData@Qt_5 5.6.0~beta
  _ZTV11QAudioInput@Qt_5 5.6.0~beta
  _ZTV11QAudioProbe@Qt_5 5.6.0~beta
@@ -2244,7 +1939,6 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTV12QCameraFocus@Qt_5 5.6.0~beta
  _ZTV12QMediaObject@Qt_5 5.6.0~beta
  _ZTV12QMediaPlayer@Qt_5 5.6.0~beta
- _ZTV12QSampleCache@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV12QSoundEffect@Qt_5 5.6.0~beta
  _ZTV13QAudioDecoder@Qt_5 5.6.0~beta
  _ZTV13QMediaControl@Qt_5 5.6.0~beta
@@ -2255,12 +1949,10 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTV14QMediaRecorder@Qt_5 5.6.0~beta
  _ZTV15QCameraExposure@Qt_5 5.6.0~beta
  _ZTV17QAudioRoleControl@Qt_5 5.6.0~beta
- _ZTV17QImageVideoBuffer@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV17QRadioDataControl@Qt_5 5.6.0~beta
  _ZTV18QAudioSystemPlugin@Qt_5 5.6.0~beta
  _ZTV18QCameraInfoControl@Qt_5 5.6.0~beta
  _ZTV18QCameraZoomControl@Qt_5 5.6.0~beta
- _ZTV18QMemoryVideoBuffer@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV18QRadioTunerControl@Qt_5 5.6.0~beta
  _ZTV19QAbstractAudioInput@Qt_5 5.6.0~beta
  _ZTV19QCameraFlashControl@Qt_5 5.6.0~beta
@@ -2268,34 +1960,26 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTV19QCameraImageCapture@Qt_5 5.6.0~beta
  _ZTV19QCameraLocksControl@Qt_5 5.6.0~beta
  _ZTV19QMediaPlayerControl@Qt_5 5.6.0~beta
- _ZTV19QPlaylistFileParser@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV19QVideoWindowControl@Qt_5 5.6.0~beta
  _ZTV20QAbstractAudioOutput@Qt_5 5.6.0~beta
  _ZTV20QAbstractVideoBuffer@Qt_5 5.6.0~beta
  _ZTV20QAbstractVideoFilter@Qt_5 5.6.0~beta
  _ZTV20QAudioDecoderControl@Qt_5 5.6.0~beta
  _ZTV20QImageEncoderControl@Qt_5 5.6.0~beta
- _ZTV20QMediaPlaylistReader@Qt_5_PRIVATE_API 5.6.0~beta
- _ZTV20QMediaPlaylistWriter@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV20QMediaStreamsControl@Qt_5 5.6.0~beta
  _ZTV20QVideoFilterRunnable@Qt_5 5.6.0~beta
  _ZTV21QAbstractVideoSurface@Qt_5 5.6.0~beta
- _ZTV21QMediaPlaylistControl@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV21QMediaRecorderControl@Qt_5 5.6.0~beta
- _ZTV21QMediaServiceProvider@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV21QVideoRendererControl@Qt_5 5.6.0~beta
  _ZTV22QCameraExposureControl@Qt_5 5.6.0~beta
  _ZTV22QCameraFeedbackControl@Qt_5 5.6.0~beta
  _ZTV22QCameraImageProcessing@Qt_5 5.6.0~beta
  _ZTV22QMediaContainerControl@Qt_5 5.6.0~beta
- _ZTV22QMediaPlaylistIOPlugin@Qt_5_PRIVATE_API 5.6.0~beta
- _ZTV22QMediaPlaylistProvider@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV22QMetaDataReaderControl@Qt_5 5.6.0~beta
  _ZTV22QMetaDataWriterControl@Qt_5 5.6.0~beta
  _ZTV23QCustomAudioRoleControl@Qt_5 5.11.1
  _ZTV23QMediaAudioProbeControl@Qt_5 5.6.0~beta
  _ZTV23QMediaBindableInterface@Qt_5 5.6.0~beta
- _ZTV23QMediaPlaylistNavigator@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV23QMediaVideoProbeControl@Qt_5 5.6.0~beta
  _ZTV24QAbstractAudioDeviceInfo@Qt_5 5.6.0~beta
  _ZTV25QMediaAvailabilityControl@Qt_5 5.6.0~beta
@@ -2303,10 +1987,7 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTV26QAudioInputSelectorControl@Qt_5 5.6.0~beta
  _ZTV26QCameraImageCaptureControl@Qt_5 5.6.0~beta
  _ZTV26QMediaNetworkAccessControl@Qt_5 5.6.0~beta
- _ZTV26QMediaResourcePolicyPlugin@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV27QAudioOutputSelectorControl@Qt_5 5.6.0~beta
- _ZTV27QAudioSystemPluginExtension@Qt_5_PRIVATE_API 5.9.0~rc
- _ZTV27QMediaPlaylistSourceControl@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV27QMediaServiceProviderPlugin@Qt_5 5.6.0~beta
  _ZTV27QVideoDeviceSelectorControl@Qt_5 5.6.0~beta
  _ZTV28QAudioEncoderSettingsControl@Qt_5 5.6.0~beta
@@ -2314,17 +1995,13 @@ libQt5Multimedia.so.5 libqt5multimedia5 #MINVER#
  _ZTV28QMediaGaplessPlaybackControl@Qt_5 5.6.0~beta
  _ZTV28QVideoEncoderSettingsControl@Qt_5 5.6.0~beta
  _ZTV29QCameraImageProcessingControl@Qt_5 5.6.0~beta
- _ZTV29QMediaNetworkPlaylistProvider@Qt_5_PRIVATE_API 5.6.0~beta
- _ZTV30QVideoOutputOrientationHandler@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV32QCameraCaptureDestinationControl@Qt_5 5.6.0~beta
  _ZTV32QCameraViewfinderSettingsControl@Qt_5 5.6.0~beta
- _ZTV32QMediaPlayerResourceSetInterface@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV33QCameraCaptureBufferFormatControl@Qt_5 5.6.0~beta
  _ZTV33QCameraViewfinderSettingsControl2@Qt_5 5.6.0~beta
  _ZTV37QMediaServiceProviderFactoryInterface@Qt_5 5.6.0~beta
  _ZTV6QSound@Qt_5 5.6.0~beta
  _ZTV7QCamera@Qt_5 5.6.0~beta
- _ZTV7QSample@Qt_5_PRIVATE_API 5.6.0~beta
  _ZeqRK15QMediaTimeRangeS1_@Qt_5 5.6.0~beta
  _ZeqRK18QMediaTimeIntervalS1_@Qt_5 5.6.0~beta
  _ZeqRK25QCameraViewfinderSettingsS1_@Qt_5 5.6.0~beta
