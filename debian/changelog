@@ -1,11 +1,11 @@
-qtmultimedia-opensource-src (5.15.5-1) UNRELEASED; urgency=medium
+qtmultimedia-opensource-src (5.15.5-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.15.5.
   * Use symver directive to catch all private symbols at once.
+    - Fixes build with LTO enabled (closes: #1015639).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Jul 2022 16:44:35 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 27 Jul 2022 00:13:20 +0300
 
 qtmultimedia-opensource-src (5.15.4-2) unstable; urgency=medium
 
