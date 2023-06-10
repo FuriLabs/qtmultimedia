@@ -14,20 +14,20 @@ Build-Depends: debhelper-compat (= 13),
                libgstreamer1.0-dev,
                libopenal-dev,
                libpulse-dev,
-               libqt5opengl5-dev (>= 5.15.9+dfsg~),
+               libqt5opengl5-dev (>= 5.15.10+dfsg~),
                pkg-kde-tools,
                qml-module-qtquick2,
                qml-module-qttest,
-               qtbase5-dev (>= 5.15.9+dfsg~),
-               qtbase5-private-dev (>= 5.15.9+dfsg~),
-               qtdeclarative5-dev (>= 5.15.9+dfsg~),
+               qtbase5-dev (>= 5.15.10+dfsg~),
+               qtbase5-private-dev (>= 5.15.10+dfsg~),
+               qtdeclarative5-dev (>= 5.15.10+dfsg~),
                xauth <!nocheck>,
                xvfb <!nocheck>,
                zlib1g-dev
-Build-Depends-Indep: qdoc-qt5 (>= 5.15.9~) <!nodoc>,
-                     qhelpgenerator-qt5 (>= 5.15.9~) <!nodoc>,
-                     qtattributionsscanner-qt5 (>= 5.15.9~) <!nodoc>,
-                     qtbase5-doc-html (>= 5.15.9+dfsg~) <!nodoc>
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.10~) <!nodoc>,
+                     qhelpgenerator-qt5 (>= 5.15.10~) <!nodoc>,
+                     qtattributionsscanner-qt5 (>= 5.15.10~) <!nodoc>,
+                     qtbase5-doc-html (>= 5.15.10+dfsg~) <!nodoc>
 Standards-Version: 4.6.2
 Homepage: https://doc.qt.io/qt-5/qtmultimedia-index.html
 Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtmultimedia.git
