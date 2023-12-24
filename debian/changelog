@@ -1,4 +1,4 @@
-qtmultimedia-opensource-src (5.15.12-1) UNRELEASED; urgency=medium
+qtmultimedia-opensource-src (5.15.12-1) experimental; urgency=medium
 
   [ Pino Toscano ]
   * Drop the support for the dead GNU/kFreeBSD:
@@ -8,7 +8,7 @@ qtmultimedia-opensource-src (5.15.12-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.15.12.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 14 Jul 2023 21:21:05 +0200
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 24 Dec 2023 20:00:53 +0300
 
 qtmultimedia-opensource-src (5.15.10-2) unstable; urgency=medium
 
