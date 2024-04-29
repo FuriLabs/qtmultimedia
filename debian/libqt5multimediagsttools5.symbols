@@ -1,0 +1,4 @@
+# SymbolsHelper-Confirmed: 5.14.1 amd64 i386
+libQt5MultimediaGstTools.so.5 libqt5multimediagsttools5 #MINVER#
+* Build-Depends-Package: qtmultimedia5-dev
+ (symver)Qt_5_PRIVATE_API 0

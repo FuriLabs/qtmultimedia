@@ -1,0 +1,4 @@
+# SymbolsHelper-Confirmed: 5.15.1 amd64
+libQt5MultimediaQuick.so.5 libqt5multimediaquick5 #MINVER#
+* Build-Depends-Package: qtmultimedia5-dev
+ (symver)Qt_5_PRIVATE_API 0

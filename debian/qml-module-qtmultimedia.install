@@ -1,0 +1,4 @@
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/qml/QtMultimedia/Video.qml
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/qml/QtMultimedia/libdeclarative_multimedia.so
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/qml/QtMultimedia/plugins.qmltypes
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/qml/QtMultimedia/qmldir
