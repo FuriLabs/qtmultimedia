@@ -2,7 +2,7 @@ TEMPLATE = subdirs
 
 SUBDIRS += \
     audiodecoder \
-    camerabin \
+#    camerabin \
     mediaplayer \
     mediacapture
 
