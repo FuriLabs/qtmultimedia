@@ -1,5 +1,6 @@
 qtmultimedia-opensource-src (5.15.13-2) unstable; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Remove Timo and myself from Uploaders.
 
   [ Dmitry Shachnev ]
