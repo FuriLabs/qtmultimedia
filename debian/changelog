@@ -1,3 +1,10 @@
+qtmultimedia-opensource-src (5.15.15-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Sep 2024 23:28:56 +0300
+
 qtmultimedia-opensource-src (5.15.13-2) unstable; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
