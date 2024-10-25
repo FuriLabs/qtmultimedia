@@ -1,3 +1,9 @@
+qtmultimedia-opensource-src (5.15.15-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 25 Oct 2024 12:43:00 +0300
+
 qtmultimedia-opensource-src (5.15.15-1) experimental; urgency=medium
 
   * New upstream release.
