@@ -1,0 +1,14 @@
+usr/include/${DEB_HOST_MULTIARCH}/qt5/QtMultimedia/5.*
+usr/include/${DEB_HOST_MULTIARCH}/qt5/QtMultimediaGstTools/5.*
+usr/include/${DEB_HOST_MULTIARCH}/qt5/QtMultimediaQuick/5.*
+usr/include/${DEB_HOST_MULTIARCH}/qt5/QtMultimediaWidgets/5.*
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt5Multimedia/Qt5Multimedia_*Plugin.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt5Multimedia/Qt5Multimedia_QSGVideoNodeFactory_EGL.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/libQt5Multimedia.la
+usr/lib/${DEB_HOST_MULTIARCH}/libQt5MultimediaGstTools.la
+usr/lib/${DEB_HOST_MULTIARCH}/libQt5MultimediaQuick.la
+usr/lib/${DEB_HOST_MULTIARCH}/libQt5MultimediaWidgets.la
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/mkspecs/modules/qt_lib_multimedia_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/mkspecs/modules/qt_lib_multimediagsttools_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/mkspecs/modules/qt_lib_multimediawidgets_private.pri
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/mkspecs/modules/qt_lib_qtmultimediaquicktools_private.pri
